@@ -1,0 +1,500 @@
+/* FONT IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+/* GENERAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--var-main-font), sans-serif;
+  color: var(--var-text-color);
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+body::-webkit-scrollbar-track {
+  background: #fff;
+}
+body::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Avigea";
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button {
+  text-decoration: none !important;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+button:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.theme-btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+
+  font-family: "Trajan";
+  font-size: 1.438rem;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000;
+  padding: 1.375rem 2.75rem;
+  border: none;
+  border-radius: 0px;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+.theme-btn--md {
+  font-size: 1.25rem;
+  padding: 1.188rem 2.313rem;
+}
+.theme-btn--sm {
+  font-size: 0.625rem;
+  padding: 0.563rem 1.125rem;
+}
+.theme-btn--outline {
+  box-shadow: inset 0 0 0 1px #fff;
+}
+.theme-btn:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+/* GENERAL STYLES */
+.section {
+  padding: 4rem 0;
+}
+.section-intro h2 {
+  font-size: 3.125rem;
+  text-transform: capitalize;
+}
+.section-intro p {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
+/* GENERAL STYLES */
+
+/* HEADER: START */
+.header-top {
+  background: #000;
+  text-align: center;
+  padding: 1.25rem 0;
+}
+.header-top h2 {
+  font-family: "Trajan";
+  font-size: 1.313rem;
+  font-weight: 500;
+  letter-spacing: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 0;
+}
+.navbar-nav {
+  align-items: center;
+  gap: 2rem;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000;
+  position: relative;
+}
+.navbar-nav .nav-item .nav-link::before {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover::before {
+  width: 100%;
+}
+.navbar-nav .nav-item.active .nav-link::before {
+  width: 100%;
+}
+.nav-icons {
+  margin-left: 3rem;
+}
+.nav-icons .navbar-nav {
+  gap: 1.2rem;
+}
+/* HEADER: END */
+
+/* MAIN: START */
+.section--main {
+}
+.main-content {
+  background: #eaeaea;
+  padding: 9rem;
+}
+.main-text h3 {
+  font-family: "Trajan";
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 22px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.main-text h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+.main-text p {
+  font-size: 1.125rem;
+  margin-bottom: 3.313rem;
+}
+.main-img {
+  background-blend-mode: multiply;
+}
+/* MAIN: END */
+
+/* PRODUCT: START */
+.product-card {
+  position: relative;
+  transition: all 0.3s;
+  margin-bottom: 2rem;
+}
+.product-card figure .details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.688rem 3.125rem;
+  background: #000;
+}
+.product-card figure .details h3 {
+  color: #fff;
+  font-size: 2.188rem;
+  margin-bottom: 0;
+}
+/* PRODUCT: END */
+
+/* COLLECTION: START */
+.artist-card figure {
+  overflow: hidden;
+  position: relative;
+}
+.artist-card figure .action-icons {
+  position: absolute;
+  bottom: 50px;
+  left: -60px;
+  transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* .artist-card figure:hover .action-icons {
+  bottom: 50px;
+  left: 20px;
+} */
+
+.inner-slide.slick-slide.slick-current.slick-active.slick-center
+  figure
+  .action-icons {
+  bottom: 50px;
+  left: 20px;
+}
+.artist-card figure .action-icons ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.artist-card figure .action-icons ul li a {
+  background: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 100%;
+}
+.artist-card figure .action-icons ul li a:hover {
+  color: #000;
+  background: #fff;
+  transform: scale(1.2);
+}
+/* COLLECTION: END */
+
+/* FEATURED: START */
+.section--featured {
+}
+.section--featured .section-intro {
+  margin-bottom: 3.75rem;
+}
+.featured-card {
+  position: relative;
+  transition: all 0.3s;
+  margin-bottom: 2rem;
+}
+.featured-card figure .details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: #000;
+}
+.featured-card figure .details h3 {
+  color: #fff;
+  font-size: 1.063rem;
+  margin-bottom: 0;
+}
+/* FEATURED: END */
+
+/* ARTIST: START */
+.artist-intro h3 {
+  font-size: 3.125rem;
+  margin-bottom: 1.125rem;
+}
+.nav-pills {
+  margin-top: 2.188rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.nav-pills .nav-link {
+  font-family: "Trajan";
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  padding: 1rem 0;
+}
+.nav-pills .nav-link.active {
+  background: none;
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+.nav-pills .nav-link:hover {
+  cursor: pointer;
+}
+.artist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 0.875rem;
+  transition: all 0.3s;
+}
+.artist-card img {
+  margin-bottom: 1.125rem;
+}
+.artist-card h3 {
+  font-size: 1.125rem;
+  text-transform: capitalize;
+  margin-bottom: 0.8rem;
+}
+.artist-card h4 {
+  font-family: "Trajan";
+  font-size: 1.125rem;
+  margin-bottom: 0.8rem;
+}
+.artist-card h5 {
+  font-family: "Trajan";
+  font-size: 1.125rem;
+}
+/* ARTIST: END */
+
+/* TESTIMONIAL: START */
+.section--testimonials {
+  padding: 6.25rem 0;
+  background: #dedede;
+}
+.section--testimonials .section-intro {
+  margin-bottom: 3rem;
+}
+.slick-track {
+  padding: 3rem 0;
+}
+.testimonial-inner {
+  width: 1000px;
+}
+.testimonial-card {
+  background: #fff;
+  padding: 2.625rem 5.875rem;
+  border-radius: 36px;
+  box-shadow: 0 0 29px 1px rgba(0, 0, 0, 0.2);
+  margin: 0 3rem;
+}
+.testimonial-card .card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1.938rem;
+}
+.testimonial-card .card-top .user-intro .name {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-bottom: 1.313rem;
+}
+.testimonial-card .card-top .user-intro .name h3 {
+  font-family: var(--var-main-font);
+  font-size: 1.563rem;
+  font-weight: 600;
+}
+.testimonial-card .card-top .user-intro .name .stars {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.testimonial-card .card-top .user-intro .name .stars li {
+  font-size: 1.563rem;
+  color: #ffb816;
+}
+.testimonial-card .card-top .user-intro h4 {
+  font-family: var(--var-main-font);
+  font-size: 1.188rem;
+  font-weight: 600;
+}
+/* .slick-dots li button:before {
+  background: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+.slick-dots li.slick-active button:before {
+  background: #fff;
+  color: #fff;
+  border-radius: 100%;
+} */
+
+/* .slick-prev:before {
+  content: "\f060";
+}
+.slick-next:before {
+  content: "\f061";
+}
+.slick-next:before,
+.slick-prev:before {
+  font-family: "Font Awesome 5 Pro";
+  font-size: 30px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+/* TESTIMONIAL: END */
+
+/* SUBSCRIBE: START */
+.section--subscribe {
+  padding: 6.25rem 0;
+  background: #000;
+}
+.section--subscribe .section-intro {
+  color: #fff;
+  margin-bottom: 2.313rem;
+}
+.subscribe-form .form-group {
+  width: 60%;
+  margin: 0 auto 3rem auto;
+}
+.subscribe-form .form-group input {
+  padding: 2rem 2rem;
+  border-radius: 0;
+  background: #fff;
+  font-family: "Lato";
+}
+/* SUBSCRIBE: END */
+
+/* FOOTER: START */
+.footer {
+  padding: 4.375rem 0;
+}
+.footer-content .footer-logo {
+  display: inline-block;
+  margin-bottom: 1.125rem;
+}
+.footer-content p {
+  margin-bottom: 2.688rem;
+}
+.footer-content .footer-social {
+  display: flex;
+  align-items: center;
+  gap: 1.625rem;
+}
+.footer-content .footer-social li a img {
+  transition: all 0.3s;
+}
+.footer-content .footer-social li a:hover img {
+  transform: scale(1.1);
+}
+.footer-content h3 {
+  font-family: "Trajan";
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.688rem;
+  margin-bottom: 2.563rem;
+}
+.footer-content .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.footer-content .footer-links li a {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #000;
+  text-transform: capitalize;
+  position: relative;
+}
+.footer-content .footer-links li a::before {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s;
+}
+.footer-content .footer-links li a:hover::before {
+  width: 100%;
+}
+.footer-bottom {
+  margin-top: 6.25rem;
+}
+.footer-bottom p {
+  margin: 0;
+}
+.footer-bottom figure {
+  margin: 0;
+}
+/* FOOTER: END */
