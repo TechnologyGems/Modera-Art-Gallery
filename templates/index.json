@@ -1,50 +1,13 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "You Love From us Leading Online Gallery",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+    "99ae3fa9-f7e2-4d39-be12-4130c71b0688": {
+      "type": "custom-banner",
       "settings": {
-        "image_overlay_opacity": 50,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "section-heading": "DISCOVER ART",
+        "section-large-heading": "You Love From us Leading Online Gallery",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+        "view-btn-link": "",
+        "view-btn": "Shop Now"
       }
     },
     "rich_text": {
@@ -103,22 +66,11 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
-    },
-    "99ae3fa9-f7e2-4d39-be12-4130c71b0688": {
-      "type": "custom-banner",
-      "settings": {
-        "section-heading": "DISCOVER ART",
-        "section-large-heading": "You Love From us Leading Online Gallery",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
-        "view-btn-link": "",
-        "view-btn": "Shop Now"
-      }
     }
   },
   "order": [
-    "image_banner",
+    "99ae3fa9-f7e2-4d39-be12-4130c71b0688",
     "rich_text",
-    "featured_collection",
-    "99ae3fa9-f7e2-4d39-be12-4130c71b0688"
+    "featured_collection"
   ]
 }
