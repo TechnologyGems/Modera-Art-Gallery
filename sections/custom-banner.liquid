@@ -1,7 +1,25 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Main Banner",
+    "settings": [
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Main Banner Image"
+    },
+      {
+          "type": "text",
+          "id": "sub-heading",
+          "default": "Sub Heading",
+          "label": "Text for sub heading"
+        },
+      {
+          "type": "text",
+          "id": "main-heading",
+          "default": "Main Heading",
+          "label": "Text for main heading"
+        }
+    ]
   }
 {% endschema %}
 
