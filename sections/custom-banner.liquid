@@ -5,25 +5,29 @@
   <div class="row align-items-center"> 
     <div class="col-xl-6 col-lg-12"> 
       <div class="main-text">     
-<h3>{{ section.settings.section-heading }}</h2>
-{% endif %}
-{% if section.settings.section-large-heading != blank %}
-<h1>{{ section.settings.section-large-heading }}</h1>
-{% endif %}
-{% if section.settings.description != blank %}
-<p>{{ section.settings.description }}</p>
-{% endif %}
-{% if section.settings.view-btn != blank %}
-<a class="theme-btn">
-<a href="{{ section.settings.view-btn-link }}">{{ section.settings.view-btn }}</a>
-</button>
-{% endif %}
+        <h3>{{ section.settings.section-heading }}</h2>
+        {% endif %}
+        {% if section.settings.section-large-heading != blank %}
+        <h1>{{ section.settings.section-large-heading }}</h1>
+        {% endif %}
+        {% if section.settings.description != blank %}
+        <p>{{ section.settings.description }}</p>
+        {% endif %}
+        {% if section.settings.view-btn != blank %}
+        <a class="theme-btn" href="{{ section.settings.view-btn-link }}">{{ section.settings.view-btn }}</a>
+        {% endif %}
       </div>
     </div>
 
-<div class="col-xs-12 col-md-12 text-center">
-
-  </div>
+    <div class="col-xl-6 col-lg-12 text-center">
+      <figure>
+          {{ section.settings.ban-image | image_tag:
+              class: "img-fluid main-img"
+          }}
+      </figure>
+    </div>
+</div>
+</div>
 </div>
 </section>
 <!-- Welcome section ends -->
