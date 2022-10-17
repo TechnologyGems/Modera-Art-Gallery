@@ -1,23 +1,29 @@
-<section class="welcome">
-<div class="container">
-<div class="welcome-outter">
+<section class="section--main">
+<div class="container-fluid">
+<div class="main-content">
 {% if section.settings.section-heading != blank %}
-<h2 class="section-heading">{{ section.settings.section-heading }}</h2>
+  <div class="row align-items-center"> 
+    <div class="col-xl-6 col-lg-12"> 
+      <div class="main-text">     
+<h3>{{ section.settings.section-heading }}</h2>
 {% endif %}
 {% if section.settings.section-large-heading != blank %}
-<h1 class="section-large-heading">{{ section.settings.section-large-heading }}</h1>
+<h1>{{ section.settings.section-large-heading }}</h1>
 {% endif %}
 {% if section.settings.description != blank %}
-<p class="discription">{{ section.settings.description }}</p>
+<p>{{ section.settings.description }}</p>
 {% endif %}
-</div>
-<div class="col-xs-12 col-md-12 text-center">
 {% if section.settings.view-btn != blank %}
-<button class="view-btn">
+<a class="theme-btn">
 <a href="{{ section.settings.view-btn-link }}">{{ section.settings.view-btn }}</a>
 </button>
 {% endif %}
-</div>
+      </div>
+    </div>
+
+<div class="col-xs-12 col-md-12 text-center">
+
+  </div>
 </div>
 </section>
 <!-- Welcome section ends -->
