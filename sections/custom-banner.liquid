@@ -1,6 +1,28 @@
+<section class="section--main">
+        <div class="container-fluid">
+          <div class="main-content">
+            <div class="row align-items-center">
+              <div class="col-xl-6 col-lg-12">
+                <div class="main-text">
+                  <h3>{{ section.settings.sub-heading }}</h3>
+                  <h1>{{ section.settings.heading }}</h1>
+                  <p>{{ section.settings.main-text }}</p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-12 text-center">
+                <figure>
+                  <img src="assets/img/main-img.png" alt="" class="img-fluid main-img">
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
 {% schema %}
   {
-    "name": "Main Banner",
+    "name": "main-banner",
     "settings": [
       {
       "type": "image_picker",
@@ -15,8 +37,8 @@
         },
       {
           "type": "text",
-          "id": "main-heading",
-          "default": "Main Heading",
+          "id": "main-text",
+          "default": "Default Text",
           "label": "Text for main heading"
         }
     ]
