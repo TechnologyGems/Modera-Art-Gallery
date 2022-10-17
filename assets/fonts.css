@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Trajan Bold";
+    src: url({{ "TrajanPro-Bold.woff"}}) format("woff"),
+    src: url({{ "TrajanPro-Bold.woff2"}}) format("woff2"),
+}
+@font-face {
+    font-family: "Trajan Regular";
+    src: url({{ "TrajanPro-Regular.woff"}}) format("woff"),
+    src: url({{ "TrajanPro-Regular.woff2"}}) format("woff2"),
+}
