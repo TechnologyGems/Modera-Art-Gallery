@@ -110,9 +110,8 @@ button:hover {
   color: #fff;
   margin-bottom: 0;
 }
-.navbar-nav {
-  align-items: center;
-  gap: 2rem;
+.list-menu--inline {
+  gap: 32px;
 }
 ul.list-menu li a {
   font-size: 19px;
