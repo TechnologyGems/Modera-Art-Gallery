@@ -493,3 +493,15 @@ button:hover {
   margin: 0;
 }
 /* FOOTER: END */
+
+
+
+/* Custom CSS  */
+ul.list-menu li a span.header__active-menu-item {
+    text-decoration: none;
+}
+
+ul.list-menu li a:hover span {
+    text-decoration: none !important;
+}
+/* Custom CSS End  */
