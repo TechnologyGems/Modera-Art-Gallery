@@ -114,13 +114,13 @@ button:hover {
   align-items: center;
   gap: 2rem;
 }
-.navbar-nav .nav-item .nav-link {
+.ul.list-menu li a {
   font-size: 19px;
   font-weight: 700;
   color: #000;
   position: relative;
 }
-.navbar-nav .nav-item .nav-link::before {
+.ul.list-menu li a::before {
   position: absolute;
   bottom: -3px;
   left: 0;
@@ -130,10 +130,10 @@ button:hover {
   background: #000;
   transition: all 0.3s;
 }
-.navbar-nav .nav-item .nav-link:hover::before {
+.ul.list-menu li a:hover::before {
   width: 100%;
 }
-.navbar-nav .nav-item.active .nav-link::before {
+.ul.list-menu li a::before {
   width: 100%;
 }
 .nav-icons {
