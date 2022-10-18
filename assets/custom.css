@@ -133,6 +133,9 @@ ul.list-menu li a::before {
 ul.list-menu li a:hover::before {
   width: 100%;
 }
+ul.list-menu li a.active::before {
+  width: 100%;
+}
 .nav-icons {
   margin-left: 3rem;
 }
