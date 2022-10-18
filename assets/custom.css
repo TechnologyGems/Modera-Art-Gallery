@@ -101,7 +101,7 @@ button:hover {
   text-align: center;
   padding: 20px 0;
 }
-.header-top h2 {
+.announcement-bar__message {
   font-family: "Trajan";
   font-size: 21px;
   font-weight: 500;
