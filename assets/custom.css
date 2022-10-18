@@ -120,7 +120,7 @@ button:hover {
   color: #000;
   position: relative;
 }
-.ul.list-menu li a::before {
+ul.list-menu li a::before {
   position: absolute;
   bottom: -3px;
   left: 0;
@@ -130,10 +130,10 @@ button:hover {
   background: #000;
   transition: all 0.3s;
 }
-.ul.list-menu li a:hover::before {
+ul.list-menu li a:hover::before {
   width: 100%;
 }
-.ul.list-menu li a::before {
+ul.list-menu li a::before {
   width: 100%;
 }
 .nav-icons {
