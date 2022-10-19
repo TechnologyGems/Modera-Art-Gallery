@@ -102,7 +102,7 @@ button:hover {
   padding: 20px 0;
 }
 .announcement-bar__message {
-  font-family: "Trajan" !important;
+  font-family: "Trajan Regular" !important;
   font-size: 21px;
   font-weight: 500;
   letter-spacing: 24px;
@@ -151,7 +151,7 @@ ul.list-menu li a.active::before {
   padding: 144px;
 }
 .main-text h3 {
-  font-family: "Trajan" !important;
+  font-family: "Trajan Regular" !important;
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 22px;
@@ -279,7 +279,7 @@ ul.list-menu li a.active::before {
   gap: 1rem;
 }
 .nav-pills .nav-link {
-  font-family: "Trajan" !important;
+  font-family: "Trajan Regular" !important;
   font-size: 1.125rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
@@ -313,12 +313,12 @@ ul.list-menu li a.active::before {
   margin-bottom: 0.8rem;
 }
 .artist-card h4 {
-  font-family: "Trajan" !important;
+  font-family: "Trajan Regular" !important;
   font-size: 1.125rem;
   margin-bottom: 0.8rem;
 }
 .artist-card h5 {
-  font-family: "Trajan" !important;
+  font-family: "Trajan Regular" !important;
   font-size: 1.125rem;
 }
 /* ARTIST: END */
@@ -451,7 +451,7 @@ ul.list-menu li a.active::before {
   transform: scale(1.1);
 }
 .footer-content h3 {
-  font-family: "Trajan";
+  font-family: "Trajan Regular" !important;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 1.688rem;
