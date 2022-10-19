@@ -1,11 +1,9 @@
 <section class="section section--featured">
         <div class="container-fluid">
           <div class="section-intro text-center">
-            <h2>Featured Categories</h2>
+            <h2>{{ section.settings.section-heading }}</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim
+              {{ section.settings.description }}
             </p>
           </div>
           <div class="row">
@@ -42,7 +40,18 @@
 {% schema %}
   {
     "name": "Collections",
-    "settings": [],
+    "settings": [
+      {
+      "id": "section-heading",
+      "type": "text",
+      "label": "Main Heading"
+      },
+      {
+      "id": "description",
+      "type": "textarea",
+      "label": "Description"
+      }
+    ],
     "presets": [
   {
   "name": "Collections Section",
