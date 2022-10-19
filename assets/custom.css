@@ -262,7 +262,7 @@ ul.list-menu li a.active::before {
 }
 .featured-card figure .details h3 {
   color: #fff;
-  font-size: 1.063rem;
+  font-size: 17px;
   margin-bottom: 0;
 }
 /* FEATURED: END */
