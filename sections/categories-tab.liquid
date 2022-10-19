@@ -20,11 +20,13 @@
                     {% for product in collections.all.products %}
                       {% if product.tags contains "artist" %} 
                     <div class="inner-slide">
+                      <a href="{{ product.url }}">
                       <div class="artist-card">
                           {{ product | image_url: width: '440x' | image_tag }}
                           <h3>{{ product.title }}</h3>
                           <h5>{{ product.price | divided_by: 100.00 | json }}</h5>
                       </div>
+                      </a>
                     </div>
                       {% endif %}
                     {% endfor %}
