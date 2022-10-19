@@ -23,7 +23,7 @@
                       <div class="artist-card">
                           {{ product | image_url: width: '440x' | image_tag }}
                           <h3>{{ product.title }}</h3>
-                          <h5>{{ product.price }}</h5>
+                          <h5>{{ price | money }}</h5>
                       </div>
                     </div>
                       {% endif %}
