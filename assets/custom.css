@@ -305,21 +305,21 @@ ul.list-menu li a.active::before {
   transition: all 0.3s;
 }
 .artist-card img {
-  margin-bottom: 1.125rem;
+  margin-bottom: 18px;
 }
 .artist-card h3 {
-  font-size: 1.125rem;
+  font-size: 18px;
   text-transform: capitalize;
   margin-bottom: 0.8rem;
 }
 .artist-card h4 {
   font-family: "Trajan Regular" !important;
-  font-size: 1.125rem;
+  font-size: 18px;
   margin-bottom: 0.8rem;
 }
 .artist-card h5 {
   font-family: "Trajan Regular" !important;
-  font-size: 1.125rem;
+  font-size: 18px;
 }
 /* ARTIST: END */
 
