@@ -14,11 +14,11 @@
     "db6fdb51-e7e8-47ea-b13f-f4aed1db19f0": {
       "type": "custom-categories-section",
       "settings": {
-        "left-box-heading": "new & Trending",
+        "left-box-heading": "New & Trending",
         "left-category-img": "shopify:\/\/shop_images\/product-1.png",
         "left-view-btn-link": "",
         "left-view-btn": "Shop Now",
-        "right-box-heading": "BestSellers",
+        "right-box-heading": "Best Sellers",
         "right-category-img": "shopify:\/\/shop_images\/product-1.png",
         "right-view-btn-link": "shopify:\/\/collections\/best-sellers",
         "right-view-btn": "Shop Now"
@@ -30,7 +30,7 @@
         "title": "Featured products",
         "heading_size": "h1",
         "description": "<p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim<\/p>",
-        "show_description": true,
+        "show_description": false,
         "description_style": "subtitle",
         "collection": "all",
         "products_to_show": 8,
