@@ -17,7 +17,6 @@
             </div>
             <div class="col-xl-9 col-md-12">
               <div class="tab-content" id="v-pills-tabContent">
-                {% for collection in collections %}
                 <div class="tab-pane fade show active" id="v-pills-{{ collection.id }}" role="tabpanel" aria-labelledby="v-pills-{{ collection.id }}-tab" >
                   <div class="artist-slider">
                     <div class="inner-slide">
@@ -30,7 +29,6 @@
                     </div>
                   </div>
                 </div>                  
-              {% endfor %}
               </div>
             </div>
           </div>
