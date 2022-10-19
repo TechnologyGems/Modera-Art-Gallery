@@ -12,16 +12,24 @@
             {% for collection in collections %}
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                 <div class="featured-card">
-                    <figure>
-                      <a data-fancybox="" href="assets/img/art-2.png">
-                        <img src="assets/img/art-2.png" alt="" class="img-fluid">
-                      </a>
-                      <div class="details">
-                        <h3>Abstract</h3>
-                        <a href="#" class="theme-btn theme-btn--outline theme-btn--sm">
-                          SHOP NOW</a>
-                      </div>
-                  </figure>
+                      {% if collection.image %}
+                        <figure>
+                          {{ collection.image | image_url: width: 450, height: 450 | image_tag: collection.image.alt }}
+                            <div class="details">
+                              <h3>{{ collection.title }}</h3>
+                              <a href="{{ collection.url }}" class="theme-btn theme-btn--outline theme-btn--sm">
+                                Shop Now</a>
+                            </div> 
+                        </figure>
+                              {% else %}
+                                <figure>
+                                    <div class="details">
+                                      <h3>{{ collection.title }}</h3>
+                                      <a href="{{ collection.url }}" class="theme-btn theme-btn--outline theme-btn--sm">
+                                        Shop Now</a>
+                                    </div> 
+                                </figure>
+                              {% endif %} 
               </div>
             </div>
             {% endfor %}

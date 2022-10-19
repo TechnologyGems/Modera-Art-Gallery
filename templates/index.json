@@ -50,11 +50,17 @@
         "padding_top": 32,
         "padding_bottom": 32
       }
+    },
+    "d6da671b-762a-4f01-87a8-c04c0afe1942": {
+      "type": "custom-collections",
+      "settings": {
+      }
     }
   },
   "order": [
     "99ae3fa9-f7e2-4d39-be12-4130c71b0688",
     "db6fdb51-e7e8-47ea-b13f-f4aed1db19f0",
-    "featured_collection"
+    "featured_collection",
+    "d6da671b-762a-4f01-87a8-c04c0afe1942"
   ]
 }
