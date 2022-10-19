@@ -14,7 +14,7 @@
                 <div class="featured-card">
                       {% if collection.image %}
                         <figure>
-                          {{ collection.image | image_url: width: 450, height: 450 | image_tag: collection.image.alt }}
+                        <img src="{{ collection.image | image_url: width: 450, height: 450 | image_tag: collection.image.alt }}" class="img-fluid" />
                             <div class="details">
                               <h3>{{ collection.title }}</h3>
                               <a href="{{ collection.url }}" class="theme-btn theme-btn--outline theme-btn--sm">
