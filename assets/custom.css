@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Avigea" !important;
+  font-family: "Avigea " !important;
 }
 ul {
   list-style: none;
@@ -51,7 +51,7 @@ button:hover {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-family: "Trajan Regular" !important;
+  font-family: "Trajan Regular " !important;
   font-size: 23px;
   text-transform: uppercase;
   color: #fff;
