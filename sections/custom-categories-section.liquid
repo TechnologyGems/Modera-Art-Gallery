@@ -1,7 +1,86 @@
+<section class="section section--products">
+        <div class="container-fluid">
+          {% if section.settings.left-box-heading != blank %}
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-6 col-md-12">
+              <div class="product-card">
+                <figure>
+                    {{ section.settings.left-category-img | image_url : width: 490  | image_tag:
+                        class: "img-fluid main-img",
+                        alt: section.settings.image.alt | escape
+                    }}
+                  <div class="details">
+                    <h3>{{ section.settings.left-box-heading }}</h3>
+                    <a href="{{ section.settings.left-view-btn-link }}" class="theme-btn theme-btn--outline theme-btn--md">
+                      {{ section.settings.left-view-btn }}</a>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12">
+              <div class="product-card">
+                <figure>
+                    {{ section.settings.right-category-img | image_url : width: 490  | image_tag:
+                        class: "img-fluid main-img",
+                        alt: section.settings.image.alt | escape
+                    }}
+                  <div class="details">
+                    <h3>{{ section.settings.right-box-heading }}</h3>
+                    <a href="{{ section.settings.right-view-btn-link }}" class="theme-btn theme-btn--outline theme-btn--md">
+                      {{ section.settings.right-view-btn }}</a>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </section>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Section Categories",
+    "settings": [
+      {
+        "id": "left-box-heading",
+        "type": "text",
+        "label": "Left Box Heading"
+      },
+      {
+        "id": "left-category-img",
+        "type": "image_picker",
+        "label": "Left Category Image"
+      },
+      {
+        "id": "left-view-btn-link",
+        "type": "url",
+        "label": "Left Button URL"
+      },
+      {
+        "id": "left-view-btn",
+        "type": "text",
+        "label": "Left Button Text"
+      },
+      {
+        "id": "right-box-heading",
+        "type": "text",
+        "label": "Right Box Heading"
+      },
+      {
+        "id": "right-category-img",
+        "type": "image_picker",
+        "label": "Right Category Image"
+      },
+      {
+        "id": "right-view-btn-link",
+        "type": "url",
+        "label": "Right Button URL"
+      },
+      {
+        "id": "right-view-btn",
+        "type": "text",
+        "label": "Right Button Text"
+      }
+    ]
   }
 {% endschema %}
 
