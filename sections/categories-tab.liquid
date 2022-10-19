@@ -17,14 +17,18 @@
               <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-{{ collection.id }}" role="tabpanel" aria-labelledby="v-pills-{{ collection.id }}-tab" >
                   <div class="artist-slider">
+                    {% for product in collection.products %}
+                      {% if product.tags contains "artist" %} 
                     <div class="inner-slide">
                       <div class="artist-card">
                           <img src="assets/img/art-1.png" alt="" class="img-fluid" />
-                          <h3>Cream lady tempered glass wall art</h3>
-                          <h4>Modera-Art</h4>
-                          <h5>$199.00 USD</h5>
+                          <h3>{{ product.title }}</h3>
+                          <h4>{{ product.collections }}</h4>
+                          <h5>{{ product.price }}</h5>
                       </div>
                     </div>
+                      {% endif %}
+                    {% endfor %}
                   </div>
                 </div>                  
               </div>
