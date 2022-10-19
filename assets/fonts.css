@@ -1,15 +1,15 @@
 @font-face {
     font-family: "Trajan Bold";
-    src: url({{ "TrajanPro-Bold.woff"}}) format("woff"),
-    src: url({{ "TrajanPro-Bold.woff2"}}) format("woff2"),
+    src: url({{ "TrajanPro-Bold.woff" | asset_url }}) format("woff"),
+    src: url({{ "TrajanPro-Bold.woff2" | asset_url }}) format("woff2"),
 }
 @font-face {
     font-family: "Trajan Regular";
-    src: url({{ "TrajanPro-Regular.woff"}}) format("woff"),
-    src: url({{ "TrajanPro-Regular.woff2"}}) format("woff2"),
+    src: url({{ "TrajanPro-Regular.woff" | asset_url}}) format("woff"),
+    src: url({{ "TrajanPro-Regular.woff2" | asset_url}}) format("woff2"),
 }
 @font-face {
     font-family: "Avigea";
-    src: url({{ "Avigea.woff"}}) format("woff"),
-    src: url({{ "Avigea.woff2"}}) format("woff2"),
+    src: url({{ "Avigea.woff" | asset_url}}) format("woff"),
+    src: url({{ "Avigea.woff2" | asset_url}}) format("woff2"),
 }
