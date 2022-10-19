@@ -17,7 +17,7 @@
               <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-{{ collection.id }}" role="tabpanel" aria-labelledby="v-pills-{{ collection.id }}-tab" >
                   <div class="artist-slider">
-                    {% for product in collections.products %}
+                    {% for product in collections.all.products %}
                       {% if product.tags contains "artist" %} 
                     <div class="inner-slide">
                       <div class="artist-card">
