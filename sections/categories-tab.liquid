@@ -21,7 +21,7 @@
                       {% if product.tags contains "artist" %} 
                     <div class="inner-slide">
                       <div class="artist-card">
-                          <img src="{{ product.images }}" alt="" class="img-fluid" />
+                          <img src="{{ product.images | product }}" alt="" class="img-fluid" />
                           <h3>{{ product.title }}</h3>
                           <h5>{{ product.price }}</h5>
                       </div>
