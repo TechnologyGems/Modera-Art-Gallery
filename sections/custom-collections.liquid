@@ -23,7 +23,7 @@
                         </figure>
                               {% else %}
                                 <figure>
-                                  <img src="{{ 'stock.jpg' | asset_img_url |image_url: width: 450, height: 450 | image_tag: collection.image.alt }}" class="img-fluid" />
+                                  <img src="{{ 'stock.jpg' | asset_img_url }}" class="img-fluid" />
                                     <div class="details">
                                       <h3>{{ collection.title }}</h3>
                                       <a href="{{ collection.url }}" class="theme-btn theme-btn--outline theme-btn--sm">
