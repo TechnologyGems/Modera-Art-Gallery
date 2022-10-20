@@ -16,8 +16,9 @@
             <div class="col-xl-9 col-md-12">
               <div class="tab-content" id="v-pills-tabContent">
                 {% for collection in collections %}
+                  {% assign counter = 0 %}
                   {% if collection.tags contains 'artist' %}
-                <div class="tab-pane fade {% if count == 0  %} show active {% endif %}" id="v-pills-{{ collection.id }}" role="tabpanel" aria-labelledby="v-pills-{{ collection.id }}-tab" >
+                <div class="tab-pane fade {% if counter == 0  %} show active {% endif %}" id="v-pills-{{ collection.id }}" role="tabpanel" aria-labelledby="v-pills-{{ collection.id }}-tab" >
                   <div class="artist-slider">
                     {% for product in collections.all.products %}
                       {% if product.tags contains "artist" %} 
@@ -40,6 +41,7 @@
                   </div>
                 </div>    
                       {% endif %}
+                  {% increment counter %}
                 {% endfor %} 
               </div>
             </div>
