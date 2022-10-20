@@ -63,6 +63,23 @@
       "settings": {
         "collection": ""
       }
+    },
+    "1666226713c8924b2e": {
+      "type": "apps",
+      "blocks": {
+        "cbf8c0b3-de29-4c9c-a066-d9fcfc344bad": {
+          "type": "shopify:\/\/apps\/testimonials-master\/blocks\/app-block\/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
+          "settings": {
+            "embed-code": "<div id=\"c1g_testimonial\"><\/div><script src=\"https:\/\/www.cloudonegalaxy.com\/cloud\/testimonial.js\" data-shop=\"modera-art.myshopify.com\" defer><\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "cbf8c0b3-de29-4c9c-a066-d9fcfc344bad"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -70,6 +87,7 @@
     "db6fdb51-e7e8-47ea-b13f-f4aed1db19f0",
     "featured_collection",
     "d6da671b-762a-4f01-87a8-c04c0afe1942",
-    "f3267d76-51ab-43c6-9fa5-d55a180e4d5d"
+    "f3267d76-51ab-43c6-9fa5-d55a180e4d5d",
+    "1666226713c8924b2e"
   ]
 }
