@@ -506,4 +506,8 @@ ul.list-menu li a:hover span {
 .customTitle {
     font-size: 75px;
 }
+.customDesc {
+    margin: 0 auto !important;
+    width: 100% !important;
+}
 /* Custom CSS End  */
