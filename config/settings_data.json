@@ -145,7 +145,7 @@
           "logo": "shopify:\/\/shop_images\/logo_1.png",
           "logo_width": 250,
           "logo_position": "top-center",
-          "menu": "main-menu",
+          "menu": "new-main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
@@ -169,6 +169,20 @@
           "4c7ea62f-dc98-4dab-b8ab-ac932977f968": {
             "type": "link_list",
             "settings": {
+              "heading": "Menu",
+              "menu": "new-main-menu"
+            }
+          },
+          "602e8041-9bbd-4d88-a173-cbda9600a21d": {
+            "type": "text",
+            "settings": {
+              "heading": "Contact Info",
+              "subtext": "<p><a href=\"tel:123-456-7890\" title=\"tel:123-456-7890\">123-456-7890<\/a><\/p><p>257 Fireweed Ln, Ketchikan, Alaska 99901, USA<\/p><p><a href=\"mail:info@moderngallery.com\">info@moderngallery.com<\/a><\/p>"
+            }
+          },
+          "3424a51d-4271-45f4-bc34-b4a226875143": {
+            "type": "link_list",
+            "settings": {
               "heading": "Quick links",
               "menu": "footer"
             }
@@ -176,7 +190,9 @@
         },
         "block_order": [
           "d2a44b17-62de-4d62-a3e3-d24c481e8cbf",
-          "4c7ea62f-dc98-4dab-b8ab-ac932977f968"
+          "4c7ea62f-dc98-4dab-b8ab-ac932977f968",
+          "602e8041-9bbd-4d88-a173-cbda9600a21d",
+          "3424a51d-4271-45f4-bc34-b4a226875143"
         ],
         "settings": {
           "color_scheme": "background-1",
