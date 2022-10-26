@@ -503,4 +503,7 @@ ul.list-menu li a span.header__active-menu-item {
 ul.list-menu li a:hover span {
     text-decoration: none !important;
 }
+.customTitle {
+    font-size: 75px;
+}
 /* Custom CSS End  */
