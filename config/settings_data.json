@@ -158,36 +158,29 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
+          "d2a44b17-62de-4d62-a3e3-d24c481e8cbf": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/logo_1.png",
+              "image_width": 200,
+              "alignment": "center"
+            }
+          },
+          "4c7ea62f-dc98-4dab-b8ab-ac932977f968": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
               "menu": "footer"
             }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "d2a44b17-62de-4d62-a3e3-d24c481e8cbf",
+          "4c7ea62f-dc98-4dab-b8ab-ac932977f968"
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": true,
