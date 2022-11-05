@@ -1,5 +1,45 @@
 {
   "sections": {
+    "d7387382-213b-4d99-8d06-d600ea2daff2": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16656610361562__d7387382-213b-4d99-8d06-d600ea2daff2-1667684676129cade6-1": {
+          "type": "text",
+          "settings": {
+            "text": "modern & Powerful",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "template--16656610361562__d7387382-213b-4d99-8d06-d600ea2daff2-1667684676129cade6-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16656610361562__d7387382-213b-4d99-8d06-d600ea2daff2-1667684676129cade6-1",
+        "template--16656610361562__d7387382-213b-4d99-8d06-d600ea2daff2-1667684676129cade6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wallpaper_modern.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "99ae3fa9-f7e2-4d39-be12-4130c71b0688": {
       "type": "custom-banner",
       "settings": {
@@ -155,49 +195,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "d7387382-213b-4d99-8d06-d600ea2daff2": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16656610361562__d7387382-213b-4d99-8d06-d600ea2daff2-1667684676129cade6-1": {
-          "type": "text",
-          "settings": {
-            "text": "modern & Powerful",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "template--16656610361562__d7387382-213b-4d99-8d06-d600ea2daff2-1667684676129cade6-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16656610361562__d7387382-213b-4d99-8d06-d600ea2daff2-1667684676129cade6-1",
-        "template--16656610361562__d7387382-213b-4d99-8d06-d600ea2daff2-1667684676129cade6-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/wallpaper_modern.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
+    "d7387382-213b-4d99-8d06-d600ea2daff2",
     "99ae3fa9-f7e2-4d39-be12-4130c71b0688",
     "db6fdb51-e7e8-47ea-b13f-f4aed1db19f0",
     "featured_collection",
@@ -205,7 +206,6 @@
     "f3267d76-51ab-43c6-9fa5-d55a180e4d5d",
     "1666226713c8924b2e",
     "643ed9cb-a761-4367-a2e4-e0c66aa60019",
-    "169bf3a6-fbce-4b21-a029-4492b26278f4",
-    "d7387382-213b-4d99-8d06-d600ea2daff2"
+    "169bf3a6-fbce-4b21-a029-4492b26278f4"
   ]
 }
