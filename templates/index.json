@@ -56,13 +56,6 @@
         "padding_bottom": 32
       }
     },
-    "d6da671b-762a-4f01-87a8-c04c0afe1942": {
-      "type": "custom-collections",
-      "settings": {
-        "section-heading": "Featured Categories",
-        "description": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim"
-      }
-    },
     "1666226713c8924b2e": {
       "type": "apps",
       "blocks": {
@@ -119,7 +112,6 @@
     "d7387382-213b-4d99-8d06-d600ea2daff2",
     "db6fdb51-e7e8-47ea-b13f-f4aed1db19f0",
     "featured_collection",
-    "d6da671b-762a-4f01-87a8-c04c0afe1942",
     "1666226713c8924b2e",
     "643ed9cb-a761-4367-a2e4-e0c66aa60019"
   ]
