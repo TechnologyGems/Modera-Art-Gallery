@@ -13,9 +13,9 @@
     "gradient_background_2": "",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
-    "type_body_font": "lato_n4",
+    "type_body_font": "mono",
     "body_scale": 100,
-    "page_width": 1600,
+    "page_width": 1100,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -125,9 +125,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "WELCOME TO MODERA GALLERY",
+              "text": "USE CODE 10OFFMODERA",
               "text_alignment": "center",
-              "color_scheme": "accent-1",
+              "color_scheme": "inverse",
               "link": ""
             }
           }
